@@ -10,6 +10,7 @@
 body, html{
     width: 100vw;
     height: 100%;
+    background-color: black;
 }
 
 header{
@@ -19,26 +20,27 @@ header{
 
     width: 100vw;
     height: 80px;
-    background-color: white;
+    background-color: black;
     border-radius: 5px;   
     padding: 10px 5rem 10px 5rem;
 }
 
 .left{
-    color: black;
+    color: white;
     font-size: 2em;
 }
 
 .right,a{
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
     gap: 20px;
 }
 
 /* MAIN */
 main{
     width: 100vw;
+    background-color: black;
 }
 
 .collection-page{
@@ -53,7 +55,7 @@ main{
 img{
     display: flex;
     justify-self: center;
-    width: 21vw;
+    width: 270px;
     height: 50vh;
     overflow: hidden;
 }
@@ -61,7 +63,7 @@ img{
 .container{
     width: 280px;
     height: 60vh;
-    color: black;
+    color: white;
 }
 
 .text{
@@ -88,7 +90,7 @@ h1{
 }
 
 p{
-    color: rgba(0, 0, 0, 0.445);
+    color: rgba(255, 255, 255, 0.445);
     font-size: smaller;
 }
 
@@ -101,22 +103,24 @@ p{
     gap: 20px;
 
     list-style: none;
-    border: 1px solid blue;
 }
 
 .pages li a p{
     font-size: 2rem;
-    color: black;
+    color: white;
 }
 .pages li a{
     font-size: 0,5rem;
-    color: rgba(0, 0, 0, 0.767);
+    color: white;
 }
 
 /* FOOTER */
 footer{
-    background-color: #262626;
-    
+    background-color: #dfdfdf;
+}
+
+footer p{
+    color: rgb(0, 0, 0);
 }
 
 .container-footer{
@@ -127,9 +131,16 @@ footer{
 }
 
 footer .container-footer .newsletter{
+    margin: 15px 10px 0 0;
     width: 30vh;
-    color: white;
-    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     padding: 30px;
     text-align: center;
+}
+
+a img{
+    width: 40px;
+    height: 40px;
+    
 }
