@@ -142,5 +142,8 @@ footer .container-footer .newsletter{
 a img{
     width: 40px;
     height: 40px;
-    
+}
+
+.contain-footer{
+    height: 90px;
 }
